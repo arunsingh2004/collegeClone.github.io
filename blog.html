@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Design</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Supermercado+One&family=Tiro+Devanagari+Sanskrit:ital@0;1&family=Tiro+Gurmukhi:ital@0;1&family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hiddenMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Certificate & Online Programs for 2021</h1>
+    </section>
+    <!-- ---blog page content-- -->
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="certificate.jpg" />
+          <h2>Our Certificate & Online Programs for 2021</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
+            tempore aperiam praesentium odit nihil dignissimos itaque inventore
+            commodi dolore. Expedita veritatis nihil earum numquam dolorem?
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Necessitatibus nam accusantium veniam, odio, odit magnam unde a
+            porro, est consequatur atque beatae non officiis architecto sed
+            quisquam. Nesciunt, distinctio dolore.
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+            perferendis itaque officia earum distinctio, eos nam eius voluptas
+            nulla placeat animi omnis vel quia soluta quasi, quos veritatis
+            labore nobis fuga molestiae ducimus, voluptate aperiam?
+          </p>
+          <br />
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+            culpa, incidunt facere eius sapiente, voluptates doloremque
+            asperiores accusantium deserunt quasi possimus? Autem excepturi
+            magni modi placeat vitae nisi animi culpa beatae deleniti iure
+            consequuntur eius quibusdam omnis libero vel necessitatibus a
+            nostrum, ipsa impedit possimus laudantium itaque. Corrupti,
+            praesentium molestias!
+          </p>
+          <div class="comment-box">
+                <h3>Leave a Comment</h3>
+                <form class="comment-form">
+                      <input type="text" placeholder="Enter Name">
+                      <input type="email" placeholder="Enter Email">
+                      <textarea rows="5" placeholder="Your Comment"></textarea>
+                      <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+          </div>
+        </div>
+        <div class="blog-right">
+          <h3>Post Categories</h3>
+          <div>
+            <span>Bussiness Analytics</span>
+            <span>21</span>
+          </div>
+          <div>
+            <span>Data Science</span>
+            <span>28</span>
+          </div>
+          <div>
+            <span>Machine Learning</span>
+            <span>15</span>
+          </div>
+          <div>
+            <span>Computer Science</span>
+            <span>34</span>
+          </div>
+          <div>
+            <span>AutoCad</span>
+            <span>42</span>
+          </div>
+          <div>
+            <span>History</span>
+            <span>22</span>
+          </div>
+          <div>
+            <span>Commerce</span>
+            <span>30</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---Footer-- -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa illo
+        perspiciatis deleniti voluptates officia laborum<br />
+        atque incidunt rem doloribus nobis dignissimos, quae cumque recusandae
+        fugiat!
+      </p>
+      <div class="icons">
+        <a href="https://www.facebook.com/profile.php?id=100012163990032">
+          <i class="fa fa-facebook"></i>   
+        </a>
+        <a href="https://twitter.com/home">
+
+          <i class="fa fa-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com/">
+
+          <i class="fa fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/arun-singh-1a0b25225">
+
+          <i class="fa fa-linkedin"></i>
+        </a>
+      </div>
+      <p>Made with <i class="fa fa-heart-o"></i>Arun Singh</p>
+    </section>
+    <!-- ---JavaScript for Toggle  Menu-- -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hiddenMenu() {
+        navLinks.style.right = "-260px";
+      }
+    </script>
+  </body>
+</html>
